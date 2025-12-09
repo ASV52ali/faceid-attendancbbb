@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+<meta charset="UTF-8">
+<title>FaceID Attendance</title>
+<style>
+body { font-family: sans-serif; text-align: center; padding: 30px; background: #f4f4f4; }
+video { width: 320px; height: 240px; border-radius: 10px; background: #000; }
+button { margin-top: 20px; padding: 12px 25px; background: #006cff; color: white; border: none; border-radius: 8px; cursor: pointer; }
+#status { margin-top: 20px; font-size: 18px; }
+</style>
+</head>
+<body>
+<h2>ثبت حضور با وبکم</h2>
+<video id="camera" autoplay playsinline></video>
+<br>
+<input id="nameInput" placeholder="نام خود را وارد کنید">
+<br>
+<button id="captureBtn">ثبت حضور</button>
+<div id="status"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
